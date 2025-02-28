@@ -1,3 +1,4 @@
+# Need the "models." because the code starts executing outside of the models folder**
 from models.__init__ import CONN, CURSOR
 
 class Hotel:
