@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# Meant to prepopulate the database with sample data
 from helpers import (
     exit_program,
     option_1_function,
@@ -26,6 +26,10 @@ def menu():
     print("0. Exit the program")
     print("1. Option 1")
     print("2. Option 2")
+
+# If we're running CLI directly rather than importing, only then can we execute __main__
+# the following code will only run if we are running cli.py directly -- rather than importing it another file and executing that file
+# (file is protected so we only execute certain code if we're running cli.py)
 
 if __name__ == "__main__":
     main()

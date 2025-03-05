@@ -1,3 +1,4 @@
+# helper file helps split down the information
 from models.hotel import Hotel
 from models.customer import Customer
 from models.review import Review
